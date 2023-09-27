@@ -1,0 +1,135 @@
+[
+  {
+    "_id": { "$uuid": "ebe0d109-2d50-42a3-a0ae-5b3780203331" },
+    "title": "Concierto de rock",
+    "description": "Disfruta de una experiencia inolvidable escuchando a AC/DC, Metallica, Sum41 entre otros",
+    "date": { "$date": "2023-09-27T00:00:00Z" },
+    "category": "CONCERT"
+  },
+  {
+    "_id": { "$uuid": "063b6390-462b-4a4e-8fce-ccff69a338cd" },
+    "title": "Partido de fútbol",
+    "description": "No te pierdas el emocionante partido entre el Barcelona y el Real Madrid.",
+    "date": { "$date": "2023-10-15T18:30:00Z" },
+    "category": "SPORTS"
+  },
+  {
+    "_id": { "$uuid": "ccb69772-ca4b-4f12-93e5-f5b107cbd926" },
+    "title": "Obra de teatro clásica",
+    "description": "Disfruta de una representación en vivo de la famosa obra 'Romeo y Julieta'.",
+    "date": { "$date": "2023-11-05T19:00:00Z" },
+    "category": "THEATRE"
+  },
+  {
+    "_id": { "$uuid": "333a1b3d-6bfa-4c33-816e-55b190b6f70a" },
+    "title": "Festival de música electrónica",
+    "description": "Baila toda la noche con los mejores DJ en el festival de música electrónica del año.",
+    "date": { "$date": "2023-12-31T22:00:00Z" },
+    "category": "CONCERT"
+  },
+  {
+    "_id": { "$uuid": "1e2902ff-2134-4680-b97c-a886985b7e57" },
+    "title": "Partido de baloncesto",
+    "description": "Disfruta de un emocionante partido de baloncesto entre dos equipos rivales.",
+    "date": { "$date": "2024-01-20T20:15:00Z" },
+    "category": "SPORTS"
+  },
+  {
+    "_id": { "$uuid": "a065279d-d4e2-44a9-bd9d-b4a044046359" },
+    "title": "Recital de piano",
+    "description": "Escucha las hermosas melodías interpretadas por un talentoso pianista en un recital exclusivo.",
+    "date": { "$date": "2024-02-14T17:30:00Z" },
+    "category": "THEATRE"
+  },
+  {
+    "_id": { "$uuid": "44d490e9-877c-4617-b156-7b4abeefd9f0" },
+    "title": "Festival de música indie",
+    "description": "Descubre nuevas bandas y artistas independientes en el festival de música indie del año.",
+    "date": { "$date": "2024-03-10T19:45:00Z" },
+    "category": "CONCERT"
+  },
+  {
+    "_id": { "$uuid": "d6d09a05-c2c3-46eb-97ee-01fa4224c7a9" },
+    "title": "Partido de tenis",
+    "description": "Presencia un emocionante enfrentamiento en el torneo de tenis de campeonato.",
+    "date": { "$date": "2024-04-05T14:00:00Z" },
+    "category": "SPORTS"
+  },
+  {
+    "_id": { "$uuid": "e9357c98-1e90-4d64-8e06-7cea92896f5b" },
+    "title": "Comedia teatral",
+    "description": "Ríe a carcajadas con la mejor comedia teatral de la temporada.",
+    "date": { "$date": "2024-05-20T20:30:00Z" },
+    "category": "THEATRE"
+  },
+  {
+    "_id": { "$uuid": "bf417cc7-8958-4f75-84ff-373d90a268aa" },
+    "title": "Festival de música clásica",
+    "description": "Disfruta de la majestuosidad de la música clásica en un festival lleno de talento musical.",
+    "date": { "$date": "2024-06-15T19:00:00Z" },
+    "category": "CONCERT"
+  },
+  {
+    "_id": { "$uuid": "0319a924-6fe2-4152-adeb-75d6bf09e40e" },
+    "title": "Carrera de maratón",
+    "description": "Participa en la carrera de maratón anual y desafía tus límites.",
+    "date": { "$date": "2024-07-10T07:30:00Z" },
+    "category": "SPORTS"
+  },
+  {
+    "_id": { "$uuid": "d30f2f21-49ba-48a3-b2ef-ab7d29318b27" },
+    "title": "Drama en el teatro",
+    "description": "Conmuevete con una actuación dramática que te tocará el corazón.",
+    "date": { "$date": "2024-08-05T19:15:00Z" },
+    "category": "THEATRE"
+  },
+  {
+    "_id": { "$uuid": "cca5f4c2-e45f-49d2-8aa3-42397f599900" },
+    "title": "Festival de música pop",
+    "description": "Baila al ritmo de tus artistas pop favoritos en el festival más grande de la ciudad.",
+    "date": { "$date": "2024-09-20T21:00:00Z" },
+    "category": "CONCERT"
+  },
+  {
+    "_id": { "$uuid": "0afe8aa9-0b2a-43a0-9110-45c8d805cc37" },
+    "title": "Campeonato de golf",
+    "description": "Observa a los mejores golfistas competir por el título de campeón del mundo.",
+    "date": { "$date": "2024-10-10T08:00:00Z" },
+    "category": "SPORTS"
+  },
+  {
+    "_id": { "$uuid": "30ae7ddf-5589-4abc-9f42-54d1acbb62aa" },
+    "title": "Comedia de improvisación",
+    "description": "Diviértete con una noche llena de risas en una comedia de improvisación única.",
+    "date": { "$date": "2024-11-15T19:30:00Z" },
+    "category": "THEATRE"
+  },
+  {
+    "_id": { "$uuid": "fb5e7917-9cea-4381-858e-8af6e1d7e401" },
+    "title": "Festival de música country",
+    "description": "Baila al son del country en el festival más auténtico de la región.",
+    "date": { "$date": "2024-12-05T17:00:00Z" },
+    "category": "CONCERT"
+  },
+  {
+    "_id": { "$uuid": "4121bcda-0646-40a7-afad-bb272676f962" },
+    "title": "Torneo de ajedrez",
+    "description": "Presencia el enfrentamiento de las mentes más brillantes en el torneo de ajedrez de élite.",
+    "date": { "$date": "2025-01-25T15:45:00Z" },
+    "category": "SPORTS"
+  },
+  {
+    "_id": { "$uuid": "6277f6d1-2fb3-4fa5-8a50-42dc4ed1232c" },
+    "title": "Ópera clásica",
+    "description": "Sumérgete en la belleza de la ópera clásica con una actuación excepcional.",
+    "date": { "$date": "2025-02-10T20:00:00Z" },
+    "category": "THEATRE"
+  },
+  {
+    "_id": { "$uuid": "65628371-c1e0-46ce-9d11-19ba222da144" },
+    "title": "Festival de música jazz",
+    "description": "Disfruta de las notas suaves y emocionantes del jazz en un festival lleno de talento musical.",
+    "date": { "$date": "2025-03-20T18:30:00Z" },
+    "category": "CONCERT"
+  }
+]
