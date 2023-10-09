@@ -1,4 +1,4 @@
-package com.sansa.entretainmentapi.document;
+package com.sansa.entretainmentapi.entity;
 
 public enum EventCategory {
     CONCERT,

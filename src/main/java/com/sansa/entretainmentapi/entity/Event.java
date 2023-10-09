@@ -1,4 +1,4 @@
-package com.sansa.entretainmentapi.document;
+package com.sansa.entretainmentapi.entity;
 
 import lombok.Builder;
 import lombok.Data;

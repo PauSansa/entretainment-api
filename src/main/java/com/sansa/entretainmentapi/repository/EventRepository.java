@@ -1,7 +1,6 @@
 package com.sansa.entretainmentapi.repository;
 
-import com.sansa.entretainmentapi.document.Event;
-import org.springframework.data.domain.Page;
+import com.sansa.entretainmentapi.entity.Event;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.mongodb.repository.Aggregation;
 import org.springframework.data.mongodb.repository.Query;

@@ -1,6 +1,6 @@
 package com.sansa.entretainmentapi.dto;
 
-import com.sansa.entretainmentapi.document.EventCategory;
+import com.sansa.entretainmentapi.entity.EventCategory;
 import lombok.Data;
 
 import java.time.LocalDate;

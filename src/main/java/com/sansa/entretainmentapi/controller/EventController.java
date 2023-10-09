@@ -1,6 +1,6 @@
 package com.sansa.entretainmentapi.controller;
 
-import com.sansa.entretainmentapi.document.Event;
+import com.sansa.entretainmentapi.entity.Event;
 import com.sansa.entretainmentapi.dto.EventDTO;
 import com.sansa.entretainmentapi.model.ErrorResponse;
 import com.sansa.entretainmentapi.model.UpdateResponse;

@@ -5,9 +5,7 @@ import org.springframework.data.domain.Sort;
 
 import java.io.Serializable;
 
-/**
- * Created by Ergin
- **/
+
 public class OffsetBasedPageRequest implements Pageable, Serializable {
 
     private final int offset;
