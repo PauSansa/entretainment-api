@@ -1,7 +1,7 @@
 package com.sansa.entretainmentapi.service;
 
-import com.sansa.entretainmentapi.entity.Event;
 import com.sansa.entretainmentapi.dto.EventDTO;
+import com.sansa.entretainmentapi.entity.Event;
 import com.sansa.entretainmentapi.repository.EventRepository;
 import com.sansa.entretainmentapi.util.OffsetBasedPageRequest;
 import lombok.RequiredArgsConstructor;
@@ -9,7 +9,6 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
-
 
 import java.util.UUID;
 

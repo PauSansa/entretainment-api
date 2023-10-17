@@ -1,7 +1,7 @@
 package com.sansa.entretainmentapi.controller;
 
-import com.sansa.entretainmentapi.model.AuthResponse;
 import com.sansa.entretainmentapi.model.AuthRequest;
+import com.sansa.entretainmentapi.model.AuthResponse;
 import com.sansa.entretainmentapi.security.jwt.JwtService;
 import com.sansa.entretainmentapi.service.UserService;
 import lombok.AllArgsConstructor;

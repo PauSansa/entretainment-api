@@ -4,7 +4,6 @@ import com.sansa.entretainmentapi.security.jwt.JwtService;
 import com.sansa.entretainmentapi.service.CustomUserDetailsService;
 import io.jsonwebtoken.Claims;
 import lombok.RequiredArgsConstructor;
-import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.ReactiveAuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
