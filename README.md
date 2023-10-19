@@ -170,7 +170,7 @@ This API includes features like:
 - ✅ Pagination
 - ✅ All CRUD Operations
 - ✅ Reactive Connection to MongoDB
-- 🛠️ Auth with JWT
+- ✅ Auth with JWT
 - 🛠️ Filter events by category
 - 🛠️ Create users and check to see if they - already exist
 - 💭 Deployment using docker
