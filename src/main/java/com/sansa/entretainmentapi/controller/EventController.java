@@ -33,9 +33,10 @@ public class EventController {
             @RequestParam(required = false) Integer limit) {
         if(offset == null && limit == null) {
             return ResponseEntity.ok(eventService.findAllEvents());
-        } if( offset == null ^ limit == null){
+        }
+        if( offset == null ^ limit == null){
             return ResponseEntity.badRequest().body(Flux.just(new ErrorResponse("Both offset and limit must be provided")));
-        }else {
+        } else {
 
             return ResponseEntity.ok(eventService.findAllPageable(offset, limit));
         }
@@ -55,7 +56,7 @@ public class EventController {
 
     @DeleteMapping("/{uuid}")
     public Mono<ResponseEntity<?>> deleteEvent(@PathVariable String uuid) {
-        if(uuidChecker.isUUID(uuid)){;
+        if(uuidChecker.isUUID(uuid)){
             return Mono.just(ResponseEntity.status(HttpStatus.NO_CONTENT).body(eventService.deleteByUUID(UUID.fromString(uuid))));
         } else {
             return Mono.just(ResponseEntity.badRequest().body(new ErrorResponse("Invalid UUID Provided")));
@@ -66,7 +67,7 @@ public class EventController {
     public Mono<ResponseEntity<?>> updateEvent(@RequestBody EventDTO eventDTO, @PathVariable String uuid) {
         if(uuidChecker.isUUID(uuid)){
             Mono<Event> updated = eventService.updateEvent(UUID.fromString(uuid), eventDTO);
-            return Mono.just(ResponseEntity.ok(new UpdateResponse("Event Updated", updated)));
+            return Mono.just(ResponseEntity.ok(new UpdateResponse<Mono<Event>>("Event Updated", updated)));
         } else {
             return Mono.just(ResponseEntity.badRequest().body(new ErrorResponse("Invalid UUID Provided")));
         }

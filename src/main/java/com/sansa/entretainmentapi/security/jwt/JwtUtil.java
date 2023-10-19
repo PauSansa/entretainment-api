@@ -22,7 +22,7 @@ import java.util.*;
 public class JwtUtil {
     // create random set of bit for secret
     @Value("${entertainmentapi.jwt.secret}")
-    private String SECRET_KEY;
+    private String secretKey;
 
     @Value("${entertainmentapi.jwt.expiration}")
     private int expirationTime;
@@ -49,7 +49,7 @@ public class JwtUtil {
     }
 
     private Key getSigninKey(){
-        byte[] keyBytes = Decoders.BASE64.decode(SECRET_KEY);
+        byte[] keyBytes = Decoders.BASE64.decode(secretKey);
         return Keys.hmacShaKeyFor(keyBytes);
     }
 

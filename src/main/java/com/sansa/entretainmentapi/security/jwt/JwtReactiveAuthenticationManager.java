@@ -1,5 +1,6 @@
 package com.sansa.entretainmentapi.security.jwt;
 
+import io.jsonwebtoken.JwtException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -30,7 +31,7 @@ public class JwtReactiveAuthenticationManager implements ReactiveAuthenticationM
 
         String username;
         try {
-            if(!this.jwtUtil.verify(token)) throw new Exception();
+            if(!this.jwtUtil.verify(token)) throw new JwtException("Invalid JWT");
             username = this.jwtUtil.getSubject(token);
         } catch (Exception e) {
             return Mono.error(new BadCredentialsException("invalid credentials"));

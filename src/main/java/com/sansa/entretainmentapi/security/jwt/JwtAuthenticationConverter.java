@@ -21,5 +21,5 @@ public class JwtAuthenticationConverter implements ServerAuthenticationConverter
         }
 
         return Mono.just(new JwtAuthenticationToken(authorization.substring(7)));
-    };
+    }
 }
