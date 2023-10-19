@@ -23,7 +23,7 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=PauSansa_entretainment-api&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=PauSansa_entretainment-api)
 
 
 <!-- PROJECT LOGO -->
