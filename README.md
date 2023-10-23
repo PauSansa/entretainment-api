@@ -174,6 +174,7 @@ This API includes features like:
 - 🛠️ Filter events by category
 - 🛠️ Create users and check to see if they - already exist
 - 💭 Deployment using docker
+- 💭 AI generated responses
 
 
 See the [open issues](https://github.com/PauSansa/entretainment-api/issues) for a full list of proposed features (and known issues).
